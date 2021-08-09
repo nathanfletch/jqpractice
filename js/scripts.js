@@ -2,6 +2,8 @@ let counter = 0;
 
 $(document).ready(function() {
 
+  const height = $(document).height() - $(window).height();
+
   $("h1").click(function() {
     alert("This is a heading.");
   });
@@ -18,4 +20,7 @@ $(document).ready(function() {
     $("button").html(counter);
 
   })
+  $(window).scroll(function() {
+    console.log($(window).scrollTop() * 100 / height + "%");
+  });
 });
