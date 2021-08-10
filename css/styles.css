@@ -1,0 +1,21 @@
+img {
+  width: 50%;
+  margin: auto;
+  display: block;
+}
+
+#img-showing {
+  display: none;
+}
+
+
+
+.clickable {
+  cursor:pointer;
+  color: #08c;
+}
+
+.clickable:hover {
+  /* transform: scale: 1.5; */
+  text-decoration: underline;
+}

@@ -1,31 +1,36 @@
 <!DOCTYPE html>
 <html lang="en-US">
-<head>
-  <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
-  <link href="css/styles.css" rel="stylesheet" type="text/css">
-  <script src="js/jquery-3.6.0.js"></script>
-  <script src="js/scripts.js"></script>
-  <title>HTML help</title>
-</head>
-<body>
-  <div class="container">
-    <h1>HTML help</h1>
+  <head>
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css" />
+    <link href="css/styles.css" rel="stylesheet" type="text/css" />
+    <script src="js/jquery-3.6.0.js"></script>
+    <script src="js/scripts.js"></script>
+    <title>jQuery Practice</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Peek-a-boo</h1>
 
-    <p>This is a very special page. If you click somewhere, it will tell you what type of HTML element you clicked on.</p>
+      <p>
+        <strong>Peek-a-boo</strong> is an ancient game riddled in mystery and
+        deceit. Though it appears to be an innocent children's pastime, you may
+        change your mind when you learn of its treacherous history.
+      </p>
 
-    <p>Look at this cute walrus!</p>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae, a est consequuntur provident minus minima, magni illum fuga eum, natus odit corrupti sequi laudantium. Sunt commodi voluptates ex omnis adipisci sequi voluptate facilis perspiciatis quos explicabo ipsam nam, repudiandae nisi repellendus reiciendis similique, expedita modi atque voluptatum a odit vero quam quibusdam? Ut magnam facere repellat quo! Delectus illo tempore similique exercitationem ducimus placeat, quasi eos sunt est? Repellendus facere ducimus minima optio dolorum natus molestias officiis vel. Sequi, id voluptas tempore dolor similique tenetur nemo maxime. Itaque impedit similique possimus ducimus fugiat eum sint illo, omnis, magnam amet ratione.</p>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae, a est consequuntur provident minus minima, magni illum fuga eum, natus odit corrupti sequi laudantium. Sunt commodi voluptates ex omnis adipisci sequi voluptate facilis perspiciatis quos explicabo ipsam nam, repudiandae nisi repellendus reiciendis similique, expedita modi atque voluptatum a odit vero quam quibusdam? Ut magnam facere repellat quo! Delectus illo tempore similique exercitationem ducimus placeat, quasi eos sunt est? Repellendus facere ducimus minima optio dolorum natus molestias officiis vel. Sequi, id voluptas tempore dolor similique tenetur nemo maxime. Itaque impedit similique possimus ducimus fugiat eum sint illo, omnis, magnam amet ratione.</p>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae, a est consequuntur provident minus minima, magni illum fuga eum, natus odit corrupti sequi laudantium. Sunt commodi voluptates ex omnis adipisci sequi voluptate facilis perspiciatis quos explicabo ipsam nam, repudiandae nisi repellendus reiciendis similique, expedita modi atque voluptatum a odit vero quam quibusdam? Ut magnam facere repellat quo! Delectus illo tempore similique exercitationem ducimus placeat, quasi eos sunt est? Repellendus facere ducimus minima optio dolorum natus molestias officiis vel. Sequi, id voluptas tempore dolor similique tenetur nemo maxime. Itaque impedit similique possimus ducimus fugiat eum sint illo, omnis, magnam amet ratione.</p>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae, a est consequuntur provident minus minima, magni illum fuga eum, natus odit corrupti sequi laudantium. Sunt commodi voluptates ex omnis adipisci sequi voluptate facilis perspiciatis quos explicabo ipsam nam, repudiandae nisi repellendus reiciendis similique, expedita modi atque voluptatum a odit vero quam quibusdam? Ut magnam facere repellat quo! Delectus illo tempore similique exercitationem ducimus placeat, quasi eos sunt est? Repellendus facere ducimus minima optio dolorum natus molestias officiis vel. Sequi, id voluptas tempore dolor similique tenetur nemo maxime. Itaque impedit similique possimus ducimus fugiat eum sint illo, omnis, magnam amet ratione.</p>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae, a est consequuntur provident minus minima, magni illum fuga eum, natus odit corrupti sequi laudantium. Sunt commodi voluptates ex omnis adipisci sequi voluptate facilis perspiciatis quos explicabo ipsam nam, repudiandae nisi repellendus reiciendis similique, expedita modi atque voluptatum a odit vero quam quibusdam? Ut magnam facere repellat quo! Delectus illo tempore similique exercitationem ducimus placeat, quasi eos sunt est? Repellendus facere ducimus minima optio dolorum natus molestias officiis vel. Sequi, id voluptas tempore dolor similique tenetur nemo maxime. Itaque impedit similique possimus ducimus fugiat eum sint illo, omnis, magnam amet ratione.</p>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae, a est consequuntur provident minus minima, magni illum fuga eum, natus odit corrupti sequi laudantium. Sunt commodi voluptates ex omnis adipisci sequi voluptate facilis perspiciatis quos explicabo ipsam nam, repudiandae nisi repellendus reiciendis similique, expedita modi atque voluptatum a odit vero quam quibusdam? Ut magnam facere repellat quo! Delectus illo tempore similique exercitationem ducimus placeat, quasi eos sunt est? Repellendus facere ducimus minima optio dolorum natus molestias officiis vel. Sequi, id voluptas tempore dolor similique tenetur nemo maxime. Itaque impedit similique possimus ducimus fugiat eum sint illo, omnis, magnam amet ratione.</p>
-    <!-- <img src="https://images.unsplash.com/photo-1460899960812-f6ee1ecaf117?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1300&q=80"> -->
-    <button class="btn btn-primary">
-      Don't click this!
-    </button>
-  </div>
+      <div id="img-hidden">
+        <p>
+          This is a very special page.
+          <span class="clickable" id="clickShow">Click here</span> to see what
+          happens!
+        </p>
+      </div>
 
-  
-</body>
+      <div id="img-showing">
+        <p><span class="clickable" id="clickHide">Hey go away!</span></p>
+        <img
+          src="https://images.unsplash.com/photo-1460899960812-f6ee1ecaf117?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1300&q=80"
+        />
+      </div>
+    </div>
+  </body>
 </html>
