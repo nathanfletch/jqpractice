@@ -1,14 +1,8 @@
 img {
   width: 50%;
-  margin: auto;
-  display: block;
+  /* margin: auto;
+  display: block; */
 }
-
-#img-showing {
-  display: none;
-}
-
-
 
 .clickable {
   cursor:pointer;
@@ -18,4 +12,29 @@ img {
 .clickable:hover {
   /* transform: scale: 1.5; */
   text-decoration: underline;
+}
+
+.walrus-show {
+  display: none;
+}
+
+.green-background {
+  background-color: green;
+}
+
+.yellow-background {
+  background-color: yellow;
+}
+
+.red-background {
+  background-color: red;
+}
+
+.dark-mode {
+  background-color: black;
+  color: white;
+}
+
+.bordered {
+  border: solid 2px black;
 }
