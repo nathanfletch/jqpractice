@@ -17,51 +17,39 @@
         change your mind when you learn of its treacherous history.
       </p>
 
-      <div>
-        <p class="clickable walrus-hidden">Show image</p>
-        <p class="clickable walrus-show">Hide image</p>
-      </div>
-
-      <div class="walrus-hidden"></div>
-
+      <p id="walrus-text">Show image</p>
       <div class="walrus-show">
         <img
           src="https://images.unsplash.com/photo-1460899960812-f6ee1ecaf117?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1300&q=80"
         />
       </div>
 
-      <div id="content">
+      <div class="m-4" id="content">
         <div class="expandable">
-          <div class="bg-secondary">
-            <p class="toggle-text">Lorem ipsum dolor sit amet.</p>
-          </div>
-          <div class="text-showing">
+          <p class="bg-secondary" id="toggle-text">Lorem ipsum dolor sit amet.</p>
+          <div id="text-showing">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium,
             quo. Sit repellendus tempore animi eum quos eveniet? Officia,
             perferendis ea.
           </div>
         </div>
-        <div class="expandable">
-          <div class="bg-secondary">
-            <p class="toggle-text">Lorem ipsum dolor sit amet.</p>
-          </div>
-          <div class="text-showing">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium,
-            quo. Sit repellendus tempore animi eum quos eveniet? Officia,
-            perferendis ea.
-          </div>
-        </div>
+      
+        <!-- //go here -->
       </div>
+      <button class="btn btn-success" id="random">Add more content!</button>
 
-      <div>
-        <h1>What's your favorite color?</h1>
-        <p>Click a button to choose what color you'd like this page to be:</p>
+
+      <h1>What's your favorite color?</h1>
+      <p>Click a button to choose what color you'd like this page to be:</p>
+      <div class="button-group">
         <button class="btn btn-success" id="green">Green</button>
         <button class="btn btn-warning" id="yellow">Yellow</button>
         <button class="btn btn-danger" id="red">Red</button>
+
         <button class="btn btn-dark" id="dark">Dark mode</button>
         <button class="btn btn-secondary" id="borders">Add some style</button>
-        <button class="btn btn-success" id="random">Add some content</button>
+        
+        
       </div>
     </div>
   </body>
